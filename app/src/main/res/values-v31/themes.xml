@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.AudioDiary" parent="android:Theme.Material.Light.NoActionBar" />
-
     <style name="Theme.AudioDiary.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">#D9E2FF</item>
         <item name="postSplashScreenTheme">@style/Theme.AudioDiary</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/mood</item>
     </style>
 </resources>
